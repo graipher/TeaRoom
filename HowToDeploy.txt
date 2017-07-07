@@ -35,7 +35,7 @@ Then:
 
 
 
-- chiedere a roland di cambiare permessi a local.env in modo che apache lo possa usare, ma altri non lo possano leggere
+- Ask Roland to change the permissions of local.env so that apache can use it, but nobody else has read access.
 
 ./manage.py flush
 ./manage.py makemigrations
